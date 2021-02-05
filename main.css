@@ -1,0 +1,10 @@
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+.squares {
+  border: 2px solid blue;
+  height: 100px;
+  width: 100px;
+}
