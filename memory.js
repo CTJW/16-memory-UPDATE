@@ -1,22 +1,22 @@
 let arrOfPairs = [
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
-  `<img src="1">`,
+  `<div id="icon1"><img src="1"></div>`,
+  `<div id="icon1"><img src="1"></div>`,
+  `<div id="icon2"><img src="1"></div>`,
+  `<div id="icon2"><img src="1"></div>`,
+  `<div id="icon3"><img src="1"></div>`,
+  `<div id="icon3"><img src="1"></div>`,
+  `<div id="icon4"><img src="1"></div>`,
+  `<div id="icon4"><img src="1"></div>`,
+  `<div id="icon5"><img src="1"></div>`,
+  `<div id="icon5"><img src="1"></div>`,
+  `<div id="icon6"><img src="1"></div>`,
+  `<div id="icon6"><img src="1"></div>`,
+  `<div id="icon7"><img src="1"></div>`,
+  `<div id="icon7"><img src="1"></div>`,
+  `<div id="icon8"><img src="1"></div>`,
+  `<div id="icon8"><img src="1"></div>`,
+  `<div id="icon9"><img src="1"></div>`,
+  `<div id="icon9"><img src="1"></div>`,
 ];
 
 arrOfPairs = shuffle(arrOfPairs);
@@ -47,5 +47,9 @@ function shuffle(array) {
 
   return array;
 }
+
+addEventListener()
+
+
 
 document.querySelector("#boxes").innerHTML = arrOfPairsHtml;
